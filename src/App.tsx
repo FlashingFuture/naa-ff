@@ -1,4 +1,4 @@
-import React, { JSX } from "react";
+import { JSX } from "react";
 import bars from "./bars.svg";
 import home from "./home.svg";
 import "./style.css";
@@ -113,3 +113,7 @@ export const Portfolio = (): JSX.Element => {
     </div>
   );
 };
+
+export default function App() {
+  return <Portfolio />;
+}
